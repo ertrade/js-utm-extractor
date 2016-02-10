@@ -1,3 +1,10 @@
+/**
+ * JavaScript Utm Extractor v0.1.0
+ * https://github.com/ertrade/js-utm-extractor
+ *
+ * Copyright Anton Vakhrushev, 2016
+ * Released under the MIT license
+ */
 (function (factory) {
     'use strict';
     if (typeof define === 'function' && define.amd) {
