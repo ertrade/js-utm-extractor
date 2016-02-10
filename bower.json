@@ -6,9 +6,9 @@
         "src/js.utm.extractor.js"
     ],
     "keywords": [
-        "utm",
+        "utm"
     ],
     "ignore": [
-        ".jshintrc",
+        ".jshintrc"
     ]
 }
