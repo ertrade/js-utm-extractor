@@ -1,0 +1,14 @@
+{
+    "name": "js-utm-extractor",
+    "description": "Small module for extracting utl labels from browser location",
+    "license": "MIT",
+    "main": [
+        "src/js.utm.extractor.js"
+    ],
+    "keywords": [
+        "utm",
+    ],
+    "ignore": [
+        ".jshintrc",
+    ]
+}
