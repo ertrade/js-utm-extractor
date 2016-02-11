@@ -1,5 +1,5 @@
 /**
- * JavaScript Utm Extractor v0.1.0
+ * JavaScript Utm Extractor
  * https://github.com/ertrade/js-utm-extractor
  *
  * Copyright Anton Vakhrushev, 2016
@@ -38,11 +38,24 @@
             var item = parts[i];
             if (item && /^utm_/.test(item)) {
                 var tmp = item.split('=');
-                utm_labels[tmp[0]] = decodeURIComponent(tmp[1]);
+                utm_labels[tmp[0]] = decode(tmp[1]);
             }
         }
 
         return utm_labels;
+    };
+
+    /**
+     * Decode text, which may be encoded more than once
+     */
+    var decode = function(value) {
+        try {
+            while (value.indexOf('%') !== -1) {
+               value = decodeURIComponent(value);
+            }
+        } catch (e) {}
+
+        return value;
     };
 
     api.extract = api;
