@@ -1,14 +1,18 @@
 {
-	"curly": true,
-	"eqeqeq": true,
-	"expr": true,
-	"newcap": true,
-	"noarg": true,
-	"nonbsp": true,
-	"trailing": true,
-	"undef": true,
-	"unused": true,
-	"globals": {
-		"Cookies": true
-	}
+    "browser": true,
+    "globals": {
+        "UtmExtractor": true,
+        "define": true,
+        "module": true
+    },
+    "curly": true,
+    "eqeqeq": true,
+    "expr": true,
+    "newcap": true,
+    "noarg": true,
+    "nonbsp": true,
+    "quotmark": "single",
+    "trailing": true,
+    "undef": true,
+    "unused": true
 }

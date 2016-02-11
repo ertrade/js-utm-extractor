@@ -2,7 +2,7 @@
  * JavaScript Utm Extractor
  * https://github.com/ertrade/js-utm-extractor
  *
- * Copyright Anton Vakhrushev, 2016
+ * Copyright JSC ERTrade, 2016
  * Released under the MIT license
  */
 (function (factory) {
