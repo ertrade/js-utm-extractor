@@ -1,0 +1,22 @@
+{
+  "name": "@ertrade/js-utm-extractor",
+  "version": "0.3.1",
+  "description": "Small js module, which extract utm tags from browser location string",
+  "main": "src/js.utm.extractor.js",
+  "scripts": {
+    "test": "echo \"No test specified\""
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ertrade/js-utm-extractor.git"
+  },
+  "keywords": [
+    "utm"
+  ],
+  "author": "ertrade",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/ertrade/js-utm-extractor/issues"
+  },
+  "homepage": "https://github.com/ertrade/js-utm-extractor#readme"
+}
